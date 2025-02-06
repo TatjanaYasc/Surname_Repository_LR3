@@ -11,7 +11,6 @@ int side1, side2;
 //функция ввода данных
 function<void()> EnterNumber(int& varLink, string label) {
 	//разрабатывается Сидоровым С. - ветка branch_fun_1    
-    };
 }
 void CalcArea()
 {
