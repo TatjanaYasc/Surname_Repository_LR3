@@ -11,10 +11,15 @@ int side1, side2;
 //функция ввода данных
 function<void()> EnterNumber(int& varLink, string label) {
 	//разрабатывается Сидоровым С. - ветка branch_fun_1    
+    return [&varLink, label]() {
+        std::cout << label << " = ";
+        std::cin >> varLink;
+    };  
 }
 void CalcArea()
 {
 	//разрабатывается Петровым П. - ветка branch_fun_2
+    cout << "area = " << side1 * side2 << endl;
 }
 
 void CalcPerim()
