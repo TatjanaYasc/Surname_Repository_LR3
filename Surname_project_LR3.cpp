@@ -19,7 +19,7 @@ function<void()> EnterNumber(int& varLink, string label) {
 void CalcArea()
 {
 	//разрабатывается Петровым П. - ветка branch_fun_2
-    cout << "area = " << side1 * side2 << endl;
+    cout << "area = " << 2 * (side1 * side2) << endl;
 }
 
 void CalcPerim()
