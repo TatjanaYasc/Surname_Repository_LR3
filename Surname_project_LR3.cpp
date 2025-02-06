@@ -14,7 +14,7 @@ function<void()> EnterNumber(int& varLink, string label) {
     return [&varLink, label]() {
         std::cout << label << " = ";
         std::cin >> varLink;
-    }; 
+    };  
 }
 void CalcArea()
 {
