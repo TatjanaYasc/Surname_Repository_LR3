@@ -25,6 +25,7 @@ void CalcArea()
 void CalcPerim()
 {
 	//разрабатывается Васильевым В. - ветка branch_fun_3
+    cout << "perimatr " << side1 + side2 << endl;
 }
 
 //структра меню
